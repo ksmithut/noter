@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "version": "0.1",
+  "name": "Noter",
+  "description": "A simple note taking page for you new tab page",
+  "author": "Keith Smith",
+  "homepage_url": "https://github.com/ksmithut/noter",
+  "chrome_url_overrides": {
+    "newtab": "noter.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
